@@ -1,0 +1,1 @@
+export const GUARDRAILS = { maxExperimentBudget: 100, maxDailySpend: 25, approvalRequiredAbove: 50, autoLaunchAllowed: false, prohibited: ["banking changes","binding contracts","large financial commitments"] as const };
