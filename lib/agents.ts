@@ -1,0 +1,2 @@
+export type AgentName="ULTRON"|"SCOUT"|"FORGE"|"GROWTH"|"SALES"|"ANALYST"|"CFO";
+export const AGENTS: Record<AgentName,{role:string;autonomous:boolean}>={ULTRON:{role:"Executive orchestration",autonomous:true},SCOUT:{role:"Opportunity discovery",autonomous:true},FORGE:{role:"Product engineering",autonomous:true},GROWTH:{role:"Distribution",autonomous:true},SALES:{role:"Pipeline",autonomous:true},ANALYST:{role:"Experiments and KPIs",autonomous:true},CFO:{role:"Capital and economics",autonomous:false}};
