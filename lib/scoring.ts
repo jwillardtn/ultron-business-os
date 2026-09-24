@@ -1,0 +1,2 @@
+export type Opportunity={marketSize:number;urgency:number;distribution:number;buildEase:number;monetization:number;competition:number};
+export function scoreOpportunity(o:Opportunity){return Math.round((o.marketSize*0.2+o.urgency*0.2+o.distribution*0.15+o.buildEase*0.15+o.monetization*0.2+(10-o.competition)*0.1)*10)/10;}
