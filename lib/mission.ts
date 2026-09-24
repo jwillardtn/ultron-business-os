@@ -1,0 +1,1 @@
+export const MISSION = { targetRevenue: 1_000_000, currency: "USD" as const };
